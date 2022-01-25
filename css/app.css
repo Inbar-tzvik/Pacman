@@ -1,0 +1,40 @@
+body {
+  background-color: lightskyblue;
+  color: white;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+/* .board-container {
+  margin-right: auto;
+  margin-left: auto;
+} */
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+/* CSS */
+button {
+  color: #fff;
+  text-transform: uppercase;
+
+  background: green;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  /* transition: all 0.4s ease 0s; */
+}
+button:hover {
+  background-color: red;
+}
